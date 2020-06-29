@@ -55,11 +55,11 @@ class App extends Component {
 
 
   onInputChange = (event) => {
-    this.setState({input:event.target.value})
+    this.setState({ input:event.target.value })
   }
 
   displayFaceBox = box => {
-    this.setState({box: box});
+    this.setState({ box });
 
   }
 
@@ -137,7 +137,7 @@ class App extends Component {
              : <Register loadUser={this.loadUser} onRouteChange={this.onRouteChange} />
           )
         
-          }
+        }
     </div>
     )
   }
